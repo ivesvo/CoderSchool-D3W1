@@ -1,0 +1,106 @@
+body {
+  background-color: rgb(255, 255, 255);
+  font-family: 'Barlow',sans-serif;
+}
+
+
+.navbar-nav .nav-item{
+  margin-left: 20px;
+  
+  
+}
+
+
+.navbar-nav{
+  display:flex;
+  flex-direction:row;
+  align-items: center;
+  
+}
+
+section{
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  padding-left: 3%;
+  padding-right: 3%;
+  min-height:880px;
+  justify-content:center;
+
+
+
+}
+section .typewrite{
+  font-size:38px;
+  text-align:center;
+
+}
+
+
+
+
+.curriculum{
+  background-color:#e9ebee
+
+}
+
+.container{
+  background-color:#e9ebee;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content:center;
+
+  
+}
+
+.row{
+  display:flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+
+.red{
+  color:rgb(205, 69, 65);
+  
+
+}
+
+.card-img-top{
+  width:300px;
+}
+
+.btn-primary{
+  background-color: rgb(205, 69, 65);
+  color: white;
+  border: 0;
+}
+.btn:hover{
+  background-color: rgb(238, 98, 80)
+}
+
+.card{
+  margin-bottom:25px;
+  box-shadow: 0 10px 10px rgba(59, 43, 91, 0.3);
+}
+
+.card-img-top{
+  flex-shrink: 0;
+  width: 100%;
+}
+
+#third{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(https://cs-pricing-page.netlify.app/img/banner.jpg)
+
+}
+
+
+.checkout{
+  justify-content:start;
+  color: rgb(205, 69, 65);
+}
